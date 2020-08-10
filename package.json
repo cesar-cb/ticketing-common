@@ -2,7 +2,19 @@
   "name": "@ticketingcb/common",
   "author": "Cesar Boaventura",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "files": [
+    "build/**/*"
+  ],
   "license": "ISC",
-  "keywords": []
+  "keywords": [],
+  "scripts": {
+    "clean": "del ./build/*",
+    "build": "yarn clean && tsc"
+  },
+  "devDependencies": {
+    "del-cli": "^3.0.1",
+    "typescript": "^3.9.7"
+  }
 }
