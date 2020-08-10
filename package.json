@@ -1,0 +1,8 @@
+{
+  "name": "@ticketingcb/common",
+  "author": "Cesar Boaventura",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "ISC",
+  "keywords": []
+}
