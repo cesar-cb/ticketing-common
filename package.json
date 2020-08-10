@@ -11,7 +11,8 @@
   "keywords": [],
   "scripts": {
     "clean": "del ./build/*",
-    "build": "yarn clean && tsc"
+    "build": "yarn clean && tsc",
+    "publish": "yarn build && npm publish"
   },
   "devDependencies": {
     "del-cli": "^3.0.1",
