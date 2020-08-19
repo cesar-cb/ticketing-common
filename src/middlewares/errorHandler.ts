@@ -1,6 +1,6 @@
 /* eslint-disable import/prefer-default-export */
 import { Request, Response, NextFunction } from 'express';
-import CustomError from '../errors/CustomError';
+import { CustomError } from '../errors/CustomError';
 
 // TODO: Remove next warning
 

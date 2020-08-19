@@ -1,7 +1,7 @@
 /* eslint-disable import/prefer-default-export */
 import { Request, Response, NextFunction } from 'express';
 import { validationResult } from 'express-validator';
-import RequestValidationError from '../errors/RequestValidationError';
+import { RequestValidationError } from '../errors/RequestValidationError';
 
 export const validateRequest = (
   req: Request,
